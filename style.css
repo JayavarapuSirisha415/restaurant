@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+.menu{
+   
+    width: auto;
+    height:10px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+  list-style: none;
+  margin: 0px 300px;
+ 
+
+    }
+    nav{
+        display: flex;
+        align-items:center ;
+        background-color: aqua;
+    
+    }
+    .logo{
+        width:15px ;
+        height:20px ;
+        color: red;
+    }
+    .ben{
+        background-color: rgba(228, 236, 154, 0.938);
+    }
+a{
+text-decoration: none;
+}
+.foods{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:10px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+  
+    
+}
+.siri{
+    display: flex;
+    gap:15px;
+    padding: 20px;
+   
+}
+.siri img{
+    border-radius:50% ;
+}
+h1{
+    text-align:center ;
+}
+   
+
+.cuisines{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10PX;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.cus{
+    padding-top: 50px;
+}
+.testmo{
+    display: flex;
+    background-color: rgba(230, 230, 250, 0.534);
+    margin-left: 300px;
+    margin-right: 300px;
+    
+}
+.para{
+    line-height: 25px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+}
+button{
+    padding:10px;
+    border-radius: 10px;
+    background-color: rgba(52, 161, 233, 0.644);
+    color:white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.reviews{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 10px;
+}
+.reviews img{
+    border-radius: 50%;
+}
+
+.best{
+    background-color: aqua;
+    height:30px;
+}
+.rs{
+    /* background-color: rgba(165, 209, 245, 0.623); */
+    margin-left: 300px;
+    margin-right: 300px;
+    /* margin-top: 15px; */
+}
+
+.rse{
+    background-color: rgba(80, 81, 82, 0.295);
+    padding:20px 0px;
+}
+
+  .icon{
+    width:200px;
+    height:20px;
+    border: none;
+    color: red;
+     
+  }
+
+  .icon:nth-child(2){
+    color: rgb(255, 0, 200);
+  }
+
+  .icon:nth-child(3){
+    color: rgba(255, 0, 0, 0.938);
+  }
+
+  .icon:nth-child(4){
+    color: rgb(50, 94, 50);
+  }
+
+  .icon:nth-child(5){
+    color: blue;
+  }
+
+  .icon2{
+    display: flex;
+    gap: 60px;
+  }
+  .sir{
+    display: flex;
+    flex: 300px 250px;
+    background-color:rgba(196, 215, 238, 0.904);
+    gap:10px;
+   margin: 0px 300px;
+  
+  }
+.contact{
+    background-color: rgb(184, 184, 179);
+    /* margin-top: 20px; */
+    padding: 50px 0px 0px 0px;
+
+}
+
+input{
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    line-height: 3rem;
+    margin-bottom: 8px;
+    width: 210%;
+    background: transparent;
+ 
+}
+h2{
+    font-size: 35px;
+}
+
+.in{
+   width: 200px;
+}
+.icons{
+    display: flex;
+    gap:100px;
+    padding-top: 30px;
+  }
